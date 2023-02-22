@@ -13,6 +13,11 @@ namespace ConsoleApp1
             //Name output and cake output
             Console.WriteLine("Welcome," + userName + "\nWelcome to this pointless program! \nHave a cake.");
             Console.WriteLine("  , , ,\n  | | | \n ~~~~~~~\n|       |\n ~~~~~~~\n ~~~~~~~\n|       |\n---------");
+
+            //Another Test
+            Console.WriteLine("***--***\nWhat is your favorite hardcandy flavor?");
+            string candy = Console.ReadLine();
+            Console.WriteLine(candy + " sounds delicious!");
         }
     }
 }
